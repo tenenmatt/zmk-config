@@ -8,6 +8,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: urob
       url-base: https://github.com/urob
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +17,9 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.0.0  # Use specific version tag
+      path: modules/prospector-zmk-module
   self:
     path: config
