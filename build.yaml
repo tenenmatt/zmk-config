@@ -28,5 +28,5 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: seeeduino_xiao_ble
-    shield: totem_dongle
-    snippet: zmk-usb-logging
+    shield: totem_dongle prospector_adaptor
+    # snippet: zmk-usb-logging
