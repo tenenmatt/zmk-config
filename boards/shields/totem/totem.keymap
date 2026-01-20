@@ -212,7 +212,7 @@
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃   left    ┃    down   ┃    up     ┃   right   ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃   pg_dn   ┃   pg_up   ┃           ┃           ┃           ┃
+            // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃   pg_up   ┃   pg_dn   ┃           ┃           ┃           ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -220,7 +220,7 @@
             bindings = <
             &trans    &trans   &trans   &trans  &trans    &trans  &trans     &trans     &trans  &trans
             &trans    &trans   &trans   &trans  &trans    &trans  &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT
-    &trans  &trans    &trans   &trans   &trans  &trans    &trans  &kp PG_DN  &kp PG_UP  &trans  &trans  &trans
+    &trans  &trans    &trans   &trans   &trans  &trans    &trans  &kp PG_UP  &kp PG_DN  &trans  &trans  &trans
                                    &trans    &trans     &trans      &trans   &trans     &trans
             >;
         };
